@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Orbitron;
+}
+
+.theme{
+    display: flex;
+    justify-content: end;
+    padding: 20px 0px 0px 0px;
+    margin-right: 50px;
+}
+
+.theme-btn{
+    cursor: pointer;
+    background-color: blue;
+    border-radius: 50%;
+    height:40px;
+    width:40px;
+    color:white;
+}
+
+.dark-mode{
+    background-color: rgb(28, 32, 46) !important;
+}
+
+.bg-container{
+    padding:60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.calc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h1{
+    color: rgb(18, 102, 198);
+    font-size: 50px;
+}
+
+.dark-cal-bg{
+    border-radius: 20px;
+    height:550px;
+    width:400px;
+    padding: 20px;
+    border: 2px solid white;
+    background-color: rgb(13, 18, 36);
+}
+
+.cal-background{
+    border-radius: 20px;
+    height:550px;
+    width:400px;
+    background-color: rgb(239, 239, 239);
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.dark-hori{
+    border:1px solid white; 
+    width:380px;
+    margin:10px 10px 20px 10px;
+}
+
+.hori{
+    border:1px solid black; 
+    width:380px;
+    margin:10px 10px 20px 10px;
+}
+
+.input-box{
+    border:1px solid black;
+    width: 360px;
+    border-radius: 20px;
+    height: 60px;
+    margin:10px 10px 20px 10px;
+    padding: 20px 10px 20px 10px;
+    text-align: right;
+    font-size: 30px;
+}
+
+.rows{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn{
+    cursor: pointer;
+    background-color: rgb(199, 199, 199);
+    border-radius: 10px;
+    width:85px;
+    height:65px;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    color:rgb(23, 103, 160);
+}
+
+.btn:hover{
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.sym{
+    font-size: 20px;
+}
